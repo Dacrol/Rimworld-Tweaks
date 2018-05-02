@@ -3,19 +3,28 @@
 <Patch>
 
 <Operation Class="PatchOperationAdd">
-<xpath>/Defs/ThingDef[@Name="MealBase"]/ingestible</xpath>
+	<xpath>/Defs/ThingDef[@Name="MealBase"]/ingestible</xpath>
 	<value>
 		<chairSearchRadius>60</chairSearchRadius>
 	</value>
 </Operation>
 
 <Operation Class="PatchOperationAdd">
-<xpath>/Defs/ThingDef[@Name="OrganicProductBase"]</xpath>
+	<xpath>/Defs/ThingDef[@Name="OrganicProductBase"]</xpath>
 	<value>
 		<ingestible>
 			<chairSearchRadius>60</chairSearchRadius>
 		</ingestible>
 	</value>
 </Operation> 
+
+<Operation Class="PatchOperationReplace">
+	<xpath>*/RecipeDef[defName = "BulkExtractMetalFromSlag"]/products</xpath>
+	<value>
+		<products>
+			<Steel>75</Steel>
+		</products>
+	</value>
+</Operation>
 
 </Patch>
