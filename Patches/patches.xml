@@ -27,4 +27,13 @@
 	</value>
 </Operation>
 
+<Operation Class="PatchOperationReplace">
+	<xpath>*/HediffGiverSetDef[defName = "OrganicStandard"]/hediffGivers/li[@Class = "HediffGiver_Birthday" and hediff="Frail"]/partsToAffect</xpath>
+	<value>
+		<partsToAffect>
+          	<li>Spine</li>
+        </partsToAffect>
+	</value>
+</Operation>
+
 </Patch>
