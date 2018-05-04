@@ -36,4 +36,11 @@
 	</value>
 </Operation>
 
+<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name = "BuildingBase"]</xpath>
+    <value>
+        <resourcesFractionWhenDeconstructed>0.85</resourcesFractionWhenDeconstructed>
+    </value>
+</Operation>
+
 </Patch>
