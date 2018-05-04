@@ -37,14 +37,14 @@
 </Operation>
 
 <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[@Name = "BuildingBase"]</xpath>
+    <xpath>/Defs/ThingDef[@Name = "BuildingBase"]</xpath>
     <value>
         <resourcesFractionWhenDeconstructed>0.85</resourcesFractionWhenDeconstructed>
     </value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-    <xpath>Defs/StorytellerDef[@defName = "Cassandra"]/populationIntentFromPopCurve</xpath>
+    <xpath>/Defs/StorytellerDef[defName = "Cassandra"]/populationIntentFromPopCurve</xpath>
     <value>
         <populationIntentFromPopCurve>
 			<points>
