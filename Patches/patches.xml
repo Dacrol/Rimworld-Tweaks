@@ -13,7 +13,7 @@
 	<xpath>/Defs/ThingDef[@Name="OrganicProductBase"]</xpath>
 	<value>
 		<ingestible>
-			<chairSearchRadius>60</chairSearchRadius>
+			<chairSearchRadius>80</chairSearchRadius>
 		</ingestible>
 	</value>
 </Operation> 
