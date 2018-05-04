@@ -43,4 +43,28 @@
     </value>
 </Operation>
 
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/StorytellerDef[@defName = "Cassandra"]/populationIntentFromPopCurve</xpath>
+    <value>
+        <populationIntentFromPopCurve>
+			<points>
+				<li>0, 8</li>
+				<li>1, 4</li>
+				<li>5, 1</li>
+				<li>10, 0.7</li>
+				<li>17, 0</li>
+				<li>24, -1</li>
+				<!-- Defaults: 				
+				<li>0, 8</li>
+				<li>1, 4</li>
+				<li>5, 1</li>
+				<li>9, 0.5</li>
+				<li>13, 0</li>
+				<li>18, -1</li> 
+				-->
+			</points>
+		</populationIntentFromPopCurve>
+    </value>
+</Operation>
+
 </Patch>
