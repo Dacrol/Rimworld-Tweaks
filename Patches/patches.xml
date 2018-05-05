@@ -67,4 +67,11 @@
     </value>
 </Operation>
 
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="Human"]/statBases/MoveSpeed</xpath>
+	<value>
+		<MoveSpeed>5.11</MoveSpeed> <!-- Default 4.61 -->
+	</value>
+</Operation>
+
 </Patch>
