@@ -75,6 +75,13 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="Caribou"]/statBases/MoveSpeed</xpath>
+	<value>
+		<MoveSpeed>5.44</MoveSpeed> <!-- Default 4.84 -->
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
 	<xpath>/Defs/StatDef[defName="CarryingCapacity"]/defaultBaseValue</xpath>
 	<value>
 		<defaultBaseValue>250</defaultBaseValue> <!-- Default 75 -->
