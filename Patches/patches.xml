@@ -95,4 +95,22 @@
 	</value>
 </Operation>
 
+<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+	<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>DacTweaks</modName>
+			<yourMod>Megafauna</yourMod>
+			<customMessageSuccess>Megafauna detected. Patching Megafauna manhunterOnTameFailChance</customMessageSuccess>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Titanis"]/race/manhunterOnTameFailChance</xpath>
+			<value>
+				<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance> <!-- Default 0.2 -->
+			</value>
+		</li>
+	</operations>
+</Operation>
+
+
 </Patch>
