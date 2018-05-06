@@ -133,5 +133,40 @@
 	<xpath>/Defs/RecipeDef[defName="MakeChemfuelFromOrganics"]/fixedIngredientFilter/exceptedThingDefs</xpath>
 </Operation>
 
+<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+	<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>VGP Garden Tools</modName>
+			<yourMod>DacTweaks</yourMod>
+			<customMessageSuccess>[DacTweaks] VGP Garden Tools detected. Patching VGP Garden Tools to allow compost from AnimalFeed</customMessageSuccess>
+		</li>
+		<li Class="ModCheck.loadOrder">
+			<modName>VGP Garden Tools</modName>
+			<yourMod>DacTweaks</yourMod>
+			<errorOnFail>true</errorOnFail>
+			<yourModFirst>false</yourModFirst>
+			<customMessageFail>[DacTweaks] VGP Garden Tools must be loaded before DacTweaks</customMessageFail>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeCompostStarter"]/ingredients/li[2]/filter/categories</xpath>
+			<value>
+				<categories>
+			        <li>FoodRaw</li>
+			        <li>AnimalFeed</li>
+				</categories>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/RecipeDef[defName="MakeCompostStarter"]/fixedIngredientFilter/categories</xpath>
+			<value>
+				<categories>
+			        <li>FoodRaw</li>
+			        <li>AnimalFeed</li>
+				</categories>
+			</value>
+		</li>
+	</operations>
+</Operation>
 
 </Patch>
