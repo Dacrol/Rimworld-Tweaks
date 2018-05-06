@@ -108,6 +108,7 @@
 			<yourMod>DacTweaks</yourMod>
 			<errorOnFail>true</errorOnFail>
 			<yourModFirst>false</yourModFirst>
+			<customMessageFail>Megafauna must be loaded before DacTweaks</customMessageFail>
 		</li>
 		<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName="Titanis"]/race/manhunterOnTameFailChance</xpath>
