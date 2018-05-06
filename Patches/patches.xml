@@ -103,6 +103,12 @@
 			<yourMod>Megafauna</yourMod>
 			<customMessageSuccess>Megafauna detected. Patching Megafauna manhunterOnTameFailChance</customMessageSuccess>
 		</li>
+		<li Class="ModCheck.loadOrder">
+			<modName>Megafauna</modName>
+			<yourMod>DacTweaks</yourMod>
+			<errorOnFail>true</errorOnFail>
+			<yourModFirst>false</yourModFirst>
+		</li>
 		<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName="Titanis"]/race/manhunterOnTameFailChance</xpath>
 			<value>
