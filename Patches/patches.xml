@@ -99,8 +99,8 @@
 	<success>Always</success>
 	<operations>
 		<li Class="ModCheck.isModLoaded">
-			<modName>DacTweaks</modName>
-			<yourMod>Megafauna</yourMod>
+			<modName>Megafauna</modName>
+			<yourMod>DacTweaks</yourMod>
 			<customMessageSuccess>Megafauna detected. Patching Megafauna manhunterOnTameFailChance</customMessageSuccess>
 		</li>
 		<li Class="ModCheck.loadOrder">
