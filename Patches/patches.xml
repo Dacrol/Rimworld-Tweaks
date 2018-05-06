@@ -82,7 +82,7 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-	<xpath>/Defs/StatDef[defName="MedicalSurgerySuccessChance"]/capacityFactors/li[capacity="Sight"]/max</xpath>
+	<xpath>/Defs/StatDef[defName="MedicalSurgerySuccessChance" or defName="ConstructSuccessChance" or defName="ConstructionSpeed" or defName="MiningSpeed"]/capacityFactors/li[capacity="Sight"]/max</xpath>
 	<value>
 		<max>1.5</max> <!-- Default 1 -->
 	</value>
