@@ -116,6 +116,12 @@
 				<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance> <!-- Default 0.2 -->
 			</value>
 		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Entelodont"]/race/manhunterOnTameFailChance</xpath>
+			<value>
+				<manhunterOnTameFailChance>0.04</manhunterOnTameFailChance> <!-- Default 0.1 -->
+			</value>
+		</li>
 	</operations>
 </Operation>
 
