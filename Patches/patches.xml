@@ -101,14 +101,14 @@
 		<li Class="ModCheck.isModLoaded">
 			<modName>Megafauna</modName>
 			<yourMod>DacTweaks</yourMod>
-			<customMessageSuccess>Megafauna detected. Patching Megafauna manhunterOnTameFailChance</customMessageSuccess>
+			<customMessageSuccess>[DacTweaks] Megafauna detected. Patching Megafauna manhunterOnTameFailChance</customMessageSuccess>
 		</li>
 		<li Class="ModCheck.loadOrder">
 			<modName>Megafauna</modName>
 			<yourMod>DacTweaks</yourMod>
 			<errorOnFail>true</errorOnFail>
 			<yourModFirst>false</yourModFirst>
-			<customMessageFail>Megafauna must be loaded before DacTweaks</customMessageFail>
+			<customMessageFail>[DacTweaks] Megafauna must be loaded before DacTweaks</customMessageFail>
 		</li>
 		<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName="Titanis"]/race/manhunterOnTameFailChance</xpath>
