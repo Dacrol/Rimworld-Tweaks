@@ -125,13 +125,13 @@
 	</operations>
 </Operation>
 
-<Operation Class="PatchOperationRemove">
+<!-- <Operation Class="PatchOperationRemove">
 	<xpath>/Defs/RecipeDef[defName="MakeChemfuelFromOrganics"]/ingredients/li/filter/exceptedThingDefs</xpath>
 </Operation>
 
 <Operation Class="PatchOperationRemove">
 	<xpath>/Defs/RecipeDef[defName="MakeChemfuelFromOrganics"]/fixedIngredientFilter/exceptedThingDefs</xpath>
-</Operation>
+</Operation> -->
 
 <Operation Class="PatchOperationSequence">
 	<success>Always</success>
