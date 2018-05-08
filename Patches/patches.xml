@@ -169,4 +169,25 @@
 	</operations>
 </Operation>
 
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[@Name="BaseArtilleryBuilding"]/building/turretBurstCooldownTime</xpath>
+	<value>
+		<turretBurstCooldownTime>24</turretBurstCooldownTime> <!-- Default 28 -->
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[@Name="BaseArtilleryBuilding"]/building/turretBurstWarmupTime</xpath>
+	<value>
+		<turretBurstWarmupTime>3.0</turretBurstWarmupTime> <!-- Default 4 -->
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Artillery_Mortar"]/verbs/li/forcedMissRadius</xpath>
+	<value>
+		<forcedMissRadius>9.0</forcedMissRadius> <!-- Default 11 -->
+	</value>
+</Operation>
+
 </Patch>
