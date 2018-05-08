@@ -84,7 +84,7 @@
 <Operation Class="PatchOperationReplace">
 	<xpath>/Defs/StatDef[defName="CarryingCapacity"]/defaultBaseValue</xpath>
 	<value>
-		<defaultBaseValue>250</defaultBaseValue> <!-- Default 75 -->
+		<defaultBaseValue>500</defaultBaseValue> <!-- Default 75 -->
 	</value>
 </Operation>
 
