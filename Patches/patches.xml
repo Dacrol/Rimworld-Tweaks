@@ -70,14 +70,14 @@
 <Operation Class="PatchOperationReplace">
 	<xpath>/Defs/ThingDef[defName="Human"]/statBases/MoveSpeed</xpath>
 	<value>
-		<MoveSpeed>5.11</MoveSpeed> <!-- Default 4.61 -->
+		<MoveSpeed>4.91</MoveSpeed> <!-- Default 4.61 -->
 	</value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
 	<xpath>/Defs/ThingDef[defName="Caribou"]/statBases/MoveSpeed</xpath>
 	<value>
-		<MoveSpeed>5.44</MoveSpeed> <!-- Default 4.84 -->
+		<MoveSpeed>5.94</MoveSpeed> <!-- Default 4.84 -->
 	</value>
 </Operation>
 
@@ -170,6 +170,12 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName = "Thrumbo"]/race/wildness</xpath>
+	<value>
+		<wildness>0.9</wildness>
+	</value>
+</Operation>
+
 <Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[defName = "Megasloth"]/race/wildness</xpath>
 	<value>
@@ -190,23 +196,39 @@
 		<baseHungerRate>1.4</baseHungerRate> <!-- Default 2.0 -->
 	</value>
 </Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Muffalo" and @ParentName="AnimalThingBase"]/race/baseBodySize</xpath>
+	<value>
+		<baseBodySize>4.0</baseBodySize> <!-- Default 2.1 -->
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>*/DifficultyDef[defName = "Easy"]/threatScale</xpath>
+	<value>
+	<threatScale>0.3</threatScale>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[@Name="BaseArtilleryBuilding"]/building/turretBurstCooldownTime</xpath>
 	<value>
-		<turretBurstCooldownTime>24</turretBurstCooldownTime> <!-- Default 28 -->
+		<turretBurstCooldownTime>22</turretBurstCooldownTime> <!-- Default 28 -->
 	</value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[@Name="BaseArtilleryBuilding"]/building/turretBurstWarmupTime</xpath>
 	<value>
-		<turretBurstWarmupTime>3.0</turretBurstWarmupTime> <!-- Default 4 -->
+		<turretBurstWarmupTime>2.6</turretBurstWarmupTime> <!-- Default 4 -->
 	</value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[defName="Artillery_Mortar"]/verbs/li/forcedMissRadius</xpath>
 	<value>
-		<forcedMissRadius>7.5</forcedMissRadius> <!-- Default 11 -->
+		<forcedMissRadius>7.0</forcedMissRadius> <!-- Default 11 -->
 	</value>
 </Operation>
 
