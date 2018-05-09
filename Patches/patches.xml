@@ -170,6 +170,26 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName = "Megasloth"]/race/wildness</xpath>
+	<value>
+		<wildness>0.86</wildness> <!-- Default 0.97 -->
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Megasloth" and @ParentName="AnimalThingBase"]/race/baseBodySize</xpath>
+	<value>
+		<baseBodySize>4.6</baseBodySize> <!-- Default 4.0 -->
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Megasloth" and @ParentName="AnimalThingBase"]/race/baseHungerRate</xpath>
+	<value>
+		<baseHungerRate>1.4</baseHungerRate> <!-- Default 2.0 -->
+	</value>
+</Operation>
 	<xpath>Defs/ThingDef[@Name="BaseArtilleryBuilding"]/building/turretBurstCooldownTime</xpath>
 	<value>
 		<turretBurstCooldownTime>24</turretBurstCooldownTime> <!-- Default 28 -->
