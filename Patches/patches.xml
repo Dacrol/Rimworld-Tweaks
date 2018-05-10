@@ -198,6 +198,13 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName = "Ostrich"]/race/wildness</xpath>
+	<value>
+		<wildness>0.89</wildness> <!-- Default 0.95 -->
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[defName="Muffalo" and @ParentName="AnimalThingBase"]/race/baseBodySize</xpath>
 	<value>
 		<baseBodySize>4.0</baseBodySize> <!-- Default 2.1 -->
