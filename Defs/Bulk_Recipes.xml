@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>MakeChemfuelFromWoodx5</defName>
+		<label>make chemfuel from wood (x5)</label>
+		<description>Make 5 batches of chemfuel by gasifying wood logs.</description>
+		<jobString>Refining chemfuel from wood.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>12500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>350</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Chemfuel>175</Chemfuel>
+		</products>
+	</RecipeDef>
+	<RecipeDef>
+		<defName>MakeChemfuelFromOrganicsx5</defName>
+		<label>make chemfuel from organics (x5)</label>
+		<description>Make 5 batches of chemfuel by extracting biofuel from organic feedstocks.</description>
+		<jobString>Refining chemfuel from organics.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>12500</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Foods</li>
+						<li>PlantMatter</li>
+					</categories>
+					<exceptedThingDefs>
+						<li>Hay</li>
+					</exceptedThingDefs>
+				</filter>
+				<count>17.5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Foods</li>
+				<li>PlantMatter</li>
+			</categories>
+			<exceptedThingDefs>
+				<li>Hay</li>
+			</exceptedThingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<exceptedCategories>
+				<li>MeatRaw</li>
+				<li>AnimalProductRaw</li>
+			</exceptedCategories>
+		</defaultIngredientFilter>
+		<products>
+			<Chemfuel>175</Chemfuel>
+		</products>
+	</RecipeDef>
+</Defs>
