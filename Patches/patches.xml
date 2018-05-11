@@ -122,6 +122,12 @@
 				<manhunterOnTameFailChance>0.04</manhunterOnTameFailChance> <!-- Default 0.1 -->
 			</value>
 		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="Paraceratherium"]/race/baseHungerRate</xpath>
+			<value>
+				<baseHungerRate>2.6</baseHungerRate> <!-- Default 3.5 -->
+			</value>
+		</li>
 	</operations>
 </Operation>
 
