@@ -246,4 +246,28 @@
 	</value>
 </Operation>
 
+<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+	<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Harvest Organs Post Mortem - 2.0 [B18]</modName>
+			<yourMod>DacTweaks</yourMod>
+			<customMessageSuccess>[DacTweaks] Harvest Organs Post Mortem - 2.0 [B18] detected.</customMessageSuccess>
+		</li>
+		<li Class="ModCheck.loadOrder">
+			<modName>Harvest Organs Post Mortem - 2.0 [B18]</modName>
+			<yourMod>DacTweaks</yourMod>
+			<errorOnFail>true</errorOnFail>
+			<yourModFirst>false</yourModFirst>
+			<customMessageFail>[DacTweaks] Harvest Organs Post Mortem - 2.0 [B18] must be loaded before DacTweaks</customMessageFail>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>/Defs/ThoughtDef[defName="ButcheredHumanlikeCorpse"]/stages/li/baseMoodEffect</xpath>
+			<value>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</value>
+		</li>
+	</operations>
+</Operation>
+
 </Patch>
