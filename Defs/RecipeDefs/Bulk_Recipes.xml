@@ -27,6 +27,9 @@
 		<products>
 			<Chemfuel>175</Chemfuel>
 		</products>
+		<recipeUsers>
+        	<li>Refinery</li>
+      	</recipeUsers>
 	</RecipeDef>
 	<RecipeDef>
 		<defName>MakeChemfuelFromOrganicsx5</defName>
@@ -74,5 +77,8 @@
 		<products>
 			<Chemfuel>175</Chemfuel>
 		</products>
+		<recipeUsers>
+        	<li>Refinery</li>
+      	</recipeUsers>
 	</RecipeDef>
 </Defs>
