@@ -220,7 +220,7 @@
 <Operation Class="PatchOperationReplace">
 	<xpath>*/DifficultyDef[defName = "Easy"]/threatScale</xpath>
 	<value>
-	<threatScale>0.28</threatScale>
+	<threatScale>0.3</threatScale>
 	</value>
 </Operation>
 
@@ -248,7 +248,7 @@
 <Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[defName="Artillery_Mortar"]/verbs/li/forcedMissRadius</xpath>
 	<value>
-		<forcedMissRadius>7.0</forcedMissRadius> <!-- Default 11 -->
+		<forcedMissRadius>8.0</forcedMissRadius> <!-- Default 11 -->
 	</value>
 </Operation>
 
