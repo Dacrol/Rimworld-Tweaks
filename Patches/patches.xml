@@ -276,4 +276,25 @@
 	</operations>
 </Operation>
 
+<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+	<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Rimsenal - Enhanced Vanilla Pack</modName>
+			<yourMod>DacTweaks</yourMod>
+			<customMessageSuccess>[DacTweaks] Rimsenal - Enhanced Vanilla Pack detected.</customMessageSuccess>
+		</li>
+		<li Class="ModCheck.loadOrder">
+			<modName>Rimsenal - Enhanced Vanilla Pack</modName>
+			<yourMod>DacTweaks</yourMod>
+			<errorOnFail>true</errorOnFail>
+			<yourModFirst>false</yourModFirst>
+			<customMessageFail>[DacTweaks] Rimsenal - Enhanced Vanilla Pack must be loaded before DacTweaks</customMessageFail>
+		</li>
+		<li Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName="Gun_RSAMRifle"]/equippedStatOffsets</xpath>
+		</li>
+	</operations>
+</Operation>
+
 </Patch>
