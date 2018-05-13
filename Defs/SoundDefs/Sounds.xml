@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <SoundDef>
+        <defName>MessagePawnDeath</defName>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipPath>UI/PawnDeath</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>80</min>
+                    <max>80</max>
+                </volumeRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+</Defs>
