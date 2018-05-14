@@ -220,7 +220,7 @@
 <Operation Class="PatchOperationReplace">
 	<xpath>*/DifficultyDef[defName = "Easy"]/threatScale</xpath>
 	<value>
-	<threatScale>0.36</threatScale>
+	<threatScale>0.3</threatScale>
 	</value>
 </Operation>
 
@@ -295,6 +295,26 @@
 			<xpath>/Defs/ThingDef[defName="Gun_RSAMRifle"]/equippedStatOffsets</xpath>
 		</li>
 	</operations>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThoughtDef[defName="SleepDisturbed"]/durationDays</xpath>
+	<value>
+		<durationDays>0.25</durationDays> <!-- Default 0.5 -->
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThoughtDef[defName="SleepDisturbed"]/stages</xpath>
+	<value>
+		<stages>
+			<li>
+				<label>disturbed sleep</label>
+				<description>I was disturbed during sleep by people moving around nearby. A private room would solve this.</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</value>
 </Operation>
 
 </Patch>
