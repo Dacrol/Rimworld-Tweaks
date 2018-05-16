@@ -248,7 +248,7 @@
 <Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[defName="Artillery_Mortar"]/verbs/li/forcedMissRadius</xpath>
 	<value>
-		<forcedMissRadius>8.0</forcedMissRadius> <!-- Default 11 -->
+		<forcedMissRadius>7.0</forcedMissRadius> <!-- Default 11 -->
 	</value>
 </Operation>
 
