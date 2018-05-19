@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--==========  RimTweaks - Thoughts  ==========-->
+	<!--==========  Memory Misc  ==========-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "ButcheredHumanlikeCorpse"]/durationDays</xpath>
+				<value>
+					<durationDays>1</durationDays>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "ButcheredHumanlikeCorpse"]/stackLimit</xpath>
+				<value>
+					<stackLimit>1</stackLimit>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "ButcheredHumanlikeCorpse"]/stages/li/baseMoodEffect</xpath>
+				<value>
+					<baseMoodEffect>-2</baseMoodEffect>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "KnowButcheredHumanlikeCorpse"]/durationDays</xpath>
+				<value>
+					<durationDays>1</durationDays>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "KnowButcheredHumanlikeCorpse"]/stackLimit</xpath>
+				<value>
+					<stackLimit>1</stackLimit>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "KnowButcheredHumanlikeCorpse"]/stages/li/baseMoodEffect</xpath>
+				<value>
+					<baseMoodEffect>-1</baseMoodEffect>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "ObservedLayingCorpse"]/stages/li/baseMoodEffect</xpath>
+				<value>
+					<baseMoodEffect>-1</baseMoodEffect>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "ObservedLayingRottingCorpse"]/stages/li/baseMoodEffect</xpath>
+				<value>
+					<baseMoodEffect>-1</baseMoodEffect>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "ObservedLayingCorpse"]/stackLimit</xpath>
+				<value>
+					<stackLimit>2</stackLimit>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThoughtDef[defName = "ObservedLayingRottingCorpse"]/stackLimit</xpath>
+				<value>
+					<stackLimit>2</stackLimit>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThoughtDef[defName = "ObservedLayingRottingCorpse"]/nullifyingTraits</xpath>
+				<value>
+					<li>Psychopath</li>
+					<li>Cannibal</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
