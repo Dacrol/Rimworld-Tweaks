@@ -234,7 +234,7 @@
 <Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[@Name="BaseArtilleryBuilding"]/building/turretBurstCooldownTime</xpath>
 	<value>
-		<turretBurstCooldownTime>22</turretBurstCooldownTime> <!-- Default 28 -->
+		<turretBurstCooldownTime>20</turretBurstCooldownTime> <!-- Default 28 -->
 	</value>
 </Operation>
 
