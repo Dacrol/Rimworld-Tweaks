@@ -67,6 +67,30 @@
     </value>
 </Operation>
 
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/StorytellerDef[defName = "Randy"]/populationIntentFromPopCurve</xpath>
+    <value>
+        <populationIntentFromPopCurve>
+			<points>
+				<li>0, 5</li>
+				<li>1, 3</li>
+				<li>5, 0.8</li>
+				<li>9, 0.4</li>
+				<li>13, 0</li>
+				<li>30, -2</li>
+				<!-- Defaults:
+				<li>0, 8</li>
+				<li>1, 4</li>
+				<li>5, 1</li>
+				<li>9, 0.5</li>
+				<li>13, 0</li>
+				<li>50, -1</li>
+				-->
+			</points>
+		</populationIntentFromPopCurve>
+    </value>
+</Operation>
+
 <!-- <Operation Class="PatchOperationReplace">
 	<xpath>/Defs/ThingDef[defName="Human"]/statBases/MoveSpeed</xpath>
 	<value>
