@@ -315,8 +315,38 @@
 			<yourModFirst>false</yourModFirst>
 			<customMessageFail>[DacTweaks] Rimsenal - Enhanced Vanilla Pack must be loaded before DacTweaks</customMessageFail>
 		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>*/ThingDef[defName="Gun_Blowgun"]/verbs/li/range</xpath>
+			<value>
+				<range>16</range>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>*/ThingDef[defName="Gun_Blowgun"]/statBases</xpath>
+			<value>
+				<statBases>
+					<WorkToMake>20000</WorkToMake>
+					<Mass>0.5</Mass>
+					<AccuracyTouch>0.72</AccuracyTouch>
+					<AccuracyShort>0.64</AccuracyShort>
+					<AccuracyMedium>0.30</AccuracyMedium>
+					<AccuracyLong>0.12</AccuracyLong>
+					<RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
+					<Weapon_Bulk>0.5</Weapon_Bulk>
+				</statBases>
+			</value>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>*/ThingDef[defName="Gun_Blowgun"]/costList</xpath>
+			<value>
+				<costList>
+					<HerbalMedicine>15</HerbalMedicine>
+					<WoodLog>30</WoodLog>
+				</costList>
+			</value>
+		</li>
 		<li Class="PatchOperationRemove">
-			<xpath>/Defs/ThingDef[defName="Gun_RSAMRifle"]/equippedStatOffsets</xpath>
+			<xpath>//ThingDef[defName="Gun_RSAMRifle"]/equippedStatOffsets</xpath>
 		</li>
 	</operations>
 </Operation>
