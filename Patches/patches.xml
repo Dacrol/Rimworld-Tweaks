@@ -378,6 +378,9 @@
 				</statBases>
 			</value>
 		</li>
+		<li Class="PatchOperationRemove">
+			<xpath>//ThingDef[defName="Gun_RSAMRifle"]/equippedStatOffsets</xpath>
+		</li>
 	</operations>
 </Operation>
 
