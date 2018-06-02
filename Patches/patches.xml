@@ -345,8 +345,38 @@
 				</costList>
 			</value>
 		</li>
-		<li Class="PatchOperationRemove">
-			<xpath>//ThingDef[defName="Gun_RSAMRifle"]/equippedStatOffsets</xpath>
+	</operations>
+</Operation>
+
+<Operation Class="PatchOperationSequence">
+	<success>Always</success>
+	<operations>
+		<li Class="ModCheck.isModLoaded">
+			<modName>Rimsenal - Enhanced Vanilla Pack</modName>
+			<yourMod>DacTweaks</yourMod>
+			<customMessageSuccess>[DacTweaks] Rimsenal - Enhanced Vanilla Pack detected.</customMessageSuccess>
+		</li>
+		<li Class="ModCheck.loadOrder">
+			<modName>Rimsenal - Enhanced Vanilla Pack</modName>
+			<yourMod>DacTweaks</yourMod>
+			<errorOnFail>true</errorOnFail>
+			<yourModFirst>false</yourModFirst>
+			<customMessageFail>[DacTweaks] Rimsenal - Enhanced Vanilla Pack must be loaded before DacTweaks</customMessageFail>
+		</li>
+		<li Class="PatchOperationReplace">
+			<xpath>//ThingDef[defName="Gun_RSAMRifle"]/statBases</xpath>
+			<value>
+			<statBases>
+				<WorkToMake>59000</WorkToMake>
+				<Mass>10</Mass>
+				<AccuracyTouch>0.45</AccuracyTouch>
+				<AccuracyShort>0.66</AccuracyShort>
+				<AccuracyMedium>0.82</AccuracyMedium>
+				<AccuracyLong>0.91</AccuracyLong>
+				<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+				<Weapon_Bulk>3</Weapon_Bulk>
+				</statBases>
+			</value>
 		</li>
 	</operations>
 </Operation>
