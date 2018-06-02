@@ -371,4 +371,11 @@
 	</value>
 </Operation>
 
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="sd_luciprod_mechanite_oil"]/statBases/MarketValue</xpath>
+	<value>
+		<MarketValue>100</MarketValue>
+	</value>
+</Operation>
+
 </Patch>
