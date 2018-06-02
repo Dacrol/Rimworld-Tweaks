@@ -411,4 +411,11 @@
 	</value>
 </Operation>
 
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThoughtDef[defName="AteWithoutTable"]/stages/li/baseMoodEffect</xpath>
+	<value>
+		<baseMoodEffect>0</baseMoodEffect>
+	</value>
+</Operation>
+
 </Patch>
