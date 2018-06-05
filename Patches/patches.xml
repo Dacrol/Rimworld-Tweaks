@@ -418,4 +418,18 @@
 	</value>
 </Operation>
 
+<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="Fruitdrink"]/ingestible</xpath>
+	<value>
+		<nutrition>0.1</nutrition>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="Fruitdrink"]/ingestible</xpath>
+	<value>
+        <preferability>NeverForNutrition</preferability>
+	</value>
+</Operation>
+
 </Patch>
