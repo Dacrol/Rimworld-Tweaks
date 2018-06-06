@@ -445,7 +445,7 @@
         <preferability>NeverForNutrition</preferability>
 	</value>
 </Operation>
-<Operation Class="PatchOperationAdd">
+<Operation Class="PatchOperationReplace">
 	<xpath>/Defs/ThingDef[defName="MoisturePump"]/comps/li[@Class="CompProperties_TerrainPumpDry"]/daysToRadius</xpath>
 	<value>
         <daysToRadius>45</daysToRadius>
