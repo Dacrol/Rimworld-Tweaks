@@ -428,7 +428,14 @@
 <Operation Class="PatchOperationReplace">
 	<xpath>/Defs/ThoughtDef[defName="AteWithoutTable"]/stages/li/baseMoodEffect</xpath>
 	<value>
-		<baseMoodEffect>0</baseMoodEffect>
+		<baseMoodEffect>-1</baseMoodEffect>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThoughtDef[defName="AteWithoutTable"]/durationDays</xpath>
+	<value>
+		<durationDays>0.25</durationDays>
 	</value>
 </Operation>
 
