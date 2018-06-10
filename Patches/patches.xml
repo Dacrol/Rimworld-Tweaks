@@ -421,7 +421,7 @@
 <Operation Class="PatchOperationReplace">
 	<xpath>Defs/RecipeDef[defName="sd_luciprod_extract_mechanites_centipede"]/products/sd_luciprod_mechanite_oil</xpath>
 	<value>
-		<sd_luciprod_mechanite_oil>14</sd_luciprod_mechanite_oil>
+		<sd_luciprod_mechanite_oil>18</sd_luciprod_mechanite_oil>
 	</value>
 </Operation>
 
