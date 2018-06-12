@@ -467,4 +467,11 @@
 	</value>
 </Operation>
 
+<Operation Class="PatchOperationAdd">
+	<xpath>/Defs/ThingDef[defName="WallLamp"]</xpath>
+	<value>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+	</value>
+</Operation>
+
 </Patch>
