@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RoomStatDef[defName = "Space"]/scoreStages</xpath>
+        <value>
+            <scoreStages>
+                <li>
+                    <label>cramped</label>
+                </li>
+                <li>
+                    <minScore>6</minScore>
+                    <label>rather tight</label>
+                </li>
+                <li>
+                    <minScore>12</minScore>
+                    <label>average-sized</label>
+                </li>
+                <li>
+                    <minScore>20</minScore>
+                    <label>somewhat spacious</label>
+                </li>
+                <li>
+                    <minScore>30</minScore>
+                    <label>quite spacious</label>
+                </li>
+                <li>
+                    <minScore>45</minScore>
+                    <label>very spacious</label>
+                </li>
+                <li>
+                    <minScore>65</minScore>
+                    <label>extremely spacious</label>
+                </li>
+            </scoreStages>
+        </value>
+    </Operation>
+
+</Patch>
