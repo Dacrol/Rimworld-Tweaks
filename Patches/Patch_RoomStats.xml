@@ -18,19 +18,19 @@
                     <label>average-sized</label>
                 </li>
                 <li>
-                    <minScore>20</minScore>
+                    <minScore>24</minScore>
                     <label>somewhat spacious</label>
                 </li>
                 <li>
-                    <minScore>30</minScore>
+                    <minScore>36</minScore>
                     <label>quite spacious</label>
                 </li>
                 <li>
-                    <minScore>45</minScore>
+                    <minScore>48</minScore>
                     <label>very spacious</label>
                 </li>
                 <li>
-                    <minScore>65</minScore>
+                    <minScore>64</minScore>
                     <label>extremely spacious</label>
                 </li>
             </scoreStages>
