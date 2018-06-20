@@ -468,14 +468,14 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-	<xpath>/Defs/ThingDef[defName="MakeComponentx25"]/workAmount</xpath>
+	<xpath>/Defs/RecipeDef[defName="MakeComponentx25"]/workAmount</xpath>
 	<value>
         <workAmount>40000</workAmount>
 	</value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-	<xpath>/Defs/ThingDef[defName="MakeComponentx10"]/workAmount</xpath>
+	<xpath>/Defs/RecipeDef[defName="MakeComponentx10"]/workAmount</xpath>
 	<value>
         <workAmount>20000</workAmount>
 	</value>
