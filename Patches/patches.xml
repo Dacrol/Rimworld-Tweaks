@@ -467,4 +467,11 @@
 	</value>
 </Operation>
 
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="MakeComponentx25"]/workAmount</xpath>
+	<value>
+        <workAmount>40000</workAmount>
+	</value>
+</Operation>
+
 </Patch>
