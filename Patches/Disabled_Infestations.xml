@@ -24,4 +24,10 @@
             <earliestDay>500000</earliestDay>
         </value>
     </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>*/IncidentDef[defName = "MeteoriteImpact"]/baseChance</xpath>
+        <value>
+            <baseChance>0</baseChance>
+        </value>
+    </Operation>
 </Patch>
