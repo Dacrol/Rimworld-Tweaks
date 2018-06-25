@@ -48,12 +48,12 @@
     <value>
         <populationIntentFromPopCurve>
 			<points>
-				<li>0, 5</li>
+				<li>0, 4</li>
 				<li>1, 2</li>
-				<li>5, 0.6</li>
-				<li>11, 0</li>
-				<li>16, -1</li>
-				<li>22, -4</li>
+				<li>5, 0.5</li>
+				<li>9, 0</li>
+				<li>14, -1</li>
+				<li>17, -5</li>
 				<!-- Defaults: 				
 				<li>0, 8</li>
 				<li>1, 4</li>
