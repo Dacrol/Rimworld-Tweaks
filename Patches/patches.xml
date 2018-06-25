@@ -412,6 +412,13 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Luciferium"]/statBases/MarketValue</xpath>
+	<value>
+		<MarketValue>240</MarketValue>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
 	<xpath>Defs/RecipeDef[defName="sd_luciprod_extract_mechanites_scyther"]/products/sd_luciprod_mechanite_oil</xpath>
 	<value>
 		<sd_luciprod_mechanite_oil>10</sd_luciprod_mechanite_oil>
