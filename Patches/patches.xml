@@ -52,7 +52,7 @@
 				<li>1, 2</li>
 				<li>5, 0.5</li>
 				<li>9, 0</li>
-				<li>14, -1</li>
+				<li>14, -2</li>
 				<li>17, -5</li>
 				<!-- Defaults: 				
 				<li>0, 8</li>
@@ -486,6 +486,10 @@
 	<value>
         <workAmount>20000</workAmount>
 	</value>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+	<xpath>/Defs/ThingDef[defName="Apparel_PowerArmor"]/equippedStatOffsets/WorkSpeedGlobal</xpath>
 </Operation>
 
 </Patch>
