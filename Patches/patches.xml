@@ -489,7 +489,11 @@
 </Operation>
 
 <Operation Class="PatchOperationRemove">
-	<xpath>/Defs/ThingDef[defName="Apparel_PowerArmor"]/equippedStatOffsets/WorkSpeedGlobal</xpath>
+	<xpath>/Defs/ThingDef[starts-with(equippedStatOffsets/WorkSpeedGlobal, "-")]/equippedStatOffsets/WorkSpeedGlobal</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+	<xpath>/Defs/thingDef[starts-with(equippedStatOffsets/WorkSpeedGlobal, "-")]/equippedStatOffsets/WorkSpeedGlobal</xpath>
 </Operation>
 
 </Patch>
