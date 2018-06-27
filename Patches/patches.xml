@@ -251,7 +251,7 @@
 <Operation Class="PatchOperationReplace">
 	<xpath>*/DifficultyDef[defName = "Medium"]/threatScale</xpath>
 	<value>
-	<threatScale>0.55</threatScale>
+	<threatScale>0.5</threatScale>
 	</value>
 </Operation>
 
