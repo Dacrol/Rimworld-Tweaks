@@ -5,7 +5,7 @@
 <Operation Class="PatchOperationAdd">
 	<xpath>/Defs/ThingDef[@Name="MealBase"]/ingestible</xpath>
 	<value>
-		<chairSearchRadius>36</chairSearchRadius>
+		<chairSearchRadius>40</chairSearchRadius>
 	</value>
 </Operation>
 
@@ -13,7 +13,7 @@
 	<xpath>/Defs/ThingDef[@Name="OrganicProductBase"]</xpath>
 	<value>
 		<ingestible>
-			<chairSearchRadius>36</chairSearchRadius>
+			<chairSearchRadius>40</chairSearchRadius>
 		</ingestible>
 	</value>
 </Operation> 
