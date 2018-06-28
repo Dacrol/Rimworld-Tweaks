@@ -505,14 +505,14 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-	<xpath>/Defs/RecipeDef[defName="ExtractRawSteelLeaf"]/ingredients/li/count</xpath>
+	<xpath>/Defs/RecipeDef[defName="ExtractBulkSteelLeaf"]/ingredients/li/count</xpath>
 	<value>
 		<count>256</count>
 	</value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-	<xpath>/Defs/RecipeDef[defName="ExtractRawSteelLeaf"]/products/Steel</xpath>
+	<xpath>/Defs/RecipeDef[defName="ExtractBulkSteelLeaf"]/products/Steel</xpath>
 	<value>
 		<Steel>64</Steel>
 	</value>
