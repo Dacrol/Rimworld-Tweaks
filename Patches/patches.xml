@@ -504,4 +504,18 @@
 	<xpath>/Defs/RecipeDef[defName="ExtractRawSteelLeaf"]/skillRequirements</xpath>
 </Operation>
 
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RecipeDef[defName="ExtractRawSteelLeaf"]/ingredients/li/count</xpath>
+	<value>
+		<count>256</count>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RecipeDef[defName="ExtractRawSteelLeaf"]/products/Steel</xpath>
+	<value>
+		<Steel>64</Steel>
+	</value>
+</Operation>
+
 </Patch>
