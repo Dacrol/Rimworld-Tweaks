@@ -518,4 +518,11 @@
 	</value>
 </Operation>
 
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/InspirationDef[defName="InspiredRecruitment"]/requiredSkills/Social</xpath>
+	<value>
+		<Social>21</Social>
+	</value>
+</Operation>
+
 </Patch>
