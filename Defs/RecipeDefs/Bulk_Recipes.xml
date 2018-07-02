@@ -8,7 +8,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>12500</workAmount>
-		<workSkill>Intellectual</workSkill>
+		<workSkill>Crafting</workSkill>
 		<ingredients>
 			<li>
 				<filter>
@@ -39,7 +39,7 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>12500</workAmount>
-		<workSkill>Intellectual</workSkill>
+		<workSkill>Crafting</workSkill>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<ingredients>
