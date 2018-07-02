@@ -519,6 +519,38 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RecipeDef[defName="ExtractRawPlasteelLeaf"]/skillRequirements</xpath>
+	<value>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RecipeDef[defName="ExtractBulkPlasteelLeaf"]/skillRequirements</xpath>
+	<value>
+		<skillRequirements>
+			<Crafting>5</Crafting>
+		</skillRequirements>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RecipeDef[defName="ExtractBulkPlasteelLeaf"]/ingredients/li/count</xpath>
+	<value>
+		<count>256</count>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/RecipeDef[defName="ExtractBulkPlasteelLeaf"]/products/Plasteel</xpath>
+	<value>
+		<Plasteel>64</Plasteel>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
 	<xpath>/Defs/InspirationDef[defName="InspiredRecruitment"]/requiredSkills/Social</xpath>
 	<value>
 		<Social>21</Social>
