@@ -75,4 +75,5 @@
 		<products>
 			<Chemfuel>175</Chemfuel>
 		</products>
-	</Defs>
+	</RecipeDef>
+</Defs>
