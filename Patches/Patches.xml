@@ -118,7 +118,7 @@
 		<max>1.5</max> <!-- Default 1 -->
 	</value>
 </Operation>
-
+<!-- 
 <Operation Class="PatchOperationSequence">
 	<success>Always</success>
 	<operations>
@@ -137,23 +137,23 @@
 		<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName="Titanis"]/race/manhunterOnTameFailChance</xpath>
 			<value>
-				<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance> <!-- Default 0.2 -->
+				<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance> 
 			</value>
 		</li>
 		<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName="Entelodont"]/race/manhunterOnTameFailChance</xpath>
 			<value>
-				<manhunterOnTameFailChance>0.04</manhunterOnTameFailChance> <!-- Default 0.1 -->
+				<manhunterOnTameFailChance>0.04</manhunterOnTameFailChance>
 			</value>
 		</li>
 		<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName="Paraceratherium"]/race/baseHungerRate</xpath>
 			<value>
-				<baseHungerRate>2.6</baseHungerRate> <!-- Default 3.5 -->
+				<baseHungerRate>2.6</baseHungerRate> 
 			</value>
 		</li>
 	</operations>
-</Operation>
+</Operation> -->
 
 <!-- <Operation Class="PatchOperationRemove">
 	<xpath>/Defs/RecipeDef[defName="MakeChemfuelFromOrganics"]/ingredients/li/filter/exceptedThingDefs</xpath>
@@ -162,7 +162,7 @@
 <Operation Class="PatchOperationRemove">
 	<xpath>/Defs/RecipeDef[defName="MakeChemfuelFromOrganics"]/fixedIngredientFilter/exceptedThingDefs</xpath>
 </Operation> -->
-
+<!-- 
 <Operation Class="PatchOperationSequence">
 	<success>Always</success>
 	<operations>
@@ -197,7 +197,7 @@
 			</value>
 		</li>
 	</operations>
-</Operation>
+</Operation> -->
 
 <Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[defName = "Thrumbo"]/race/wildness</xpath>
@@ -275,7 +275,7 @@
 		<forcedMissRadius>6.2</forcedMissRadius> <!-- Default 11 -->
 	</value>
 </Operation>
-
+<!-- 
 <Operation Class="PatchOperationSequence">
 	<success>Always</success>
 	<operations>
@@ -298,12 +298,12 @@
 			</value>
 		</li>
 	</operations>
-</Operation>
+</Operation> -->
 
 <Operation Class="PatchOperationSequence">
 	<success>Always</success>
 	<operations>
-		<li Class="ModCheck.isModLoaded">
+		<!-- <li Class="ModCheck.isModLoaded">
 			<modName>Rimsenal - Enhanced Vanilla Pack</modName>
 			<yourMod>DacTweaks</yourMod>
 			<customMessageSuccess>[DacTweaks] Rimsenal - Enhanced Vanilla Pack detected.</customMessageSuccess>
@@ -314,7 +314,7 @@
 			<errorOnFail>true</errorOnFail>
 			<yourModFirst>false</yourModFirst>
 			<customMessageFail>[DacTweaks] Rimsenal - Enhanced Vanilla Pack must be loaded before DacTweaks</customMessageFail>
-		</li>
+		</li> -->
 		<li Class="PatchOperationReplace">
 			<xpath>*/ThingDef[defName="Gun_Blowgun"]/verbs/li/range</xpath>
 			<value>
@@ -351,7 +351,7 @@
 <Operation Class="PatchOperationSequence">
 	<success>Always</success>
 	<operations>
-		<li Class="ModCheck.isModLoaded">
+		<!-- <li Class="ModCheck.isModLoaded">
 			<modName>Rimsenal - Enhanced Vanilla Pack</modName>
 			<yourMod>DacTweaks</yourMod>
 			<customMessageSuccess>[DacTweaks] Rimsenal - Enhanced Vanilla Pack detected.</customMessageSuccess>
@@ -362,7 +362,7 @@
 			<errorOnFail>true</errorOnFail>
 			<yourModFirst>false</yourModFirst>
 			<customMessageFail>[DacTweaks] Rimsenal - Enhanced Vanilla Pack must be loaded before DacTweaks</customMessageFail>
-		</li>
+		</li> -->
 		<li Class="PatchOperationReplace">
 			<xpath>//ThingDef[defName="Gun_RSAMRifle"]/statBases</xpath>
 			<value>
@@ -467,8 +467,8 @@
 	</value>
 </Operation>
 
-<Operation Class="PatchOperationAdd">
-	<xpath>/Defs/ThingDef[defName="ElectricCrematorium"]/comps/li[@Class="CompProperties_Power"]</xpath>
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="ElectricCrematorium"]/comps/li[@Class="CompProperties_Power"]/shortCircuitInRain</xpath>
 	<value>
         <shortCircuitInRain>false</shortCircuitInRain>
 	</value>
