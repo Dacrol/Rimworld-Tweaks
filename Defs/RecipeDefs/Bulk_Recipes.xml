@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<RecipeDef>
-		<defName>MakeChemfuelFromWoodx5</defName>
-		<label>make chemfuel from wood (x5)</label>
-		<description>Make 5 batches of chemfuel by gasifying wood logs.</description>
+		<defName>Make_ChemfuelFromWoodx5</defName>
+		<label>make chemfuel from wood x5</label>
+		<description>Make a batch of chemfuel by extracting and condensing wood gas from logs.</description>
 		<jobString>Refining chemfuel from wood.</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
-		<workAmount>12500</workAmount>
-		<workSkill>Crafting</workSkill>
+		<workAmount>10000</workAmount>
+		<workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
 		<ingredients>
 			<li>
 				<filter>
@@ -27,19 +27,17 @@
 		<products>
 			<Chemfuel>175</Chemfuel>
 		</products>
-		<recipeUsers>
-        	<li>Refinery</li>
-      	</recipeUsers>
 	</RecipeDef>
+
 	<RecipeDef>
-		<defName>MakeChemfuelFromOrganicsx5</defName>
-		<label>make chemfuel from organics (x5)</label>
-		<description>Make 5 batches of chemfuel by extracting biofuel from organic feedstocks.</description>
+		<defName>Make_ChemfuelFromOrganicsx5</defName>
+		<label>make chemfuel from organics x5</label>
+		<description>Make a batch of chemfuel by extracting biofuel from organic feedstocks.</description>
 		<jobString>Refining chemfuel from organics.</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
-		<workAmount>12500</workAmount>
-		<workSkill>Crafting</workSkill>
+		<workAmount>10000</workAmount>
+		<workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<ingredients>
@@ -49,9 +47,9 @@
 						<li>Foods</li>
 						<li>PlantMatter</li>
 					</categories>
-					<exceptedThingDefs>
+					<disallowedThingDefs>
 						<li>Hay</li>
-					</exceptedThingDefs>
+					</disallowedThingDefs>
 				</filter>
 				<count>17.5</count>
 			</li>
@@ -61,24 +59,20 @@
 				<li>Foods</li>
 				<li>PlantMatter</li>
 			</categories>
-			<exceptedThingDefs>
+			<disallowedThingDefs>
 				<li>Hay</li>
-			</exceptedThingDefs>
+			</disallowedThingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<categories>
 				<li>FoodRaw</li>
 			</categories>
-			<exceptedCategories>
+			<disallowedCategories>
 				<li>MeatRaw</li>
 				<li>AnimalProductRaw</li>
-			</exceptedCategories>
+			</disallowedCategories>
 		</defaultIngredientFilter>
 		<products>
 			<Chemfuel>175</Chemfuel>
 		</products>
-		<recipeUsers>
-        	<li>Refinery</li>
-      	</recipeUsers>
-	</RecipeDef>
-</Defs>
+	</Defs>
