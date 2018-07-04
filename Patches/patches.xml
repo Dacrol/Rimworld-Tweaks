@@ -137,19 +137,19 @@
 		<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName="Titanis"]/race/manhunterOnTameFailChance</xpath>
 			<value>
-				<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance> <!-- Default 0.2 -->
+				<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance> 
 			</value>
 		</li>
 		<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName="Entelodont"]/race/manhunterOnTameFailChance</xpath>
 			<value>
-				<manhunterOnTameFailChance>0.04</manhunterOnTameFailChance> <!-- Default 0.1 -->
+				<manhunterOnTameFailChance>0.04</manhunterOnTameFailChance>
 			</value>
 		</li>
 		<li Class="PatchOperationReplace">
 			<xpath>/Defs/ThingDef[defName="Paraceratherium"]/race/baseHungerRate</xpath>
 			<value>
-				<baseHungerRate>2.6</baseHungerRate> <!-- Default 3.5 -->
+				<baseHungerRate>2.6</baseHungerRate> 
 			</value>
 		</li>
 	</operations>
