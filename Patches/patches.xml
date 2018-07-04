@@ -467,8 +467,8 @@
 	</value>
 </Operation>
 
-<Operation Class="PatchOperationAdd">
-	<xpath>/Defs/ThingDef[defName="ElectricCrematorium"]/comps/li[@Class="CompProperties_Power"]</xpath>
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="ElectricCrematorium"]/comps/li[@Class="CompProperties_Power"]/shortCircuitInRain</xpath>
 	<value>
         <shortCircuitInRain>false</shortCircuitInRain>
 	</value>
