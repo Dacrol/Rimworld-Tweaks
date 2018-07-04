@@ -299,11 +299,11 @@
 		</li>
 	</operations>
 </Operation> -->
-<!-- 
+
 <Operation Class="PatchOperationSequence">
 	<success>Always</success>
 	<operations>
-		<li Class="ModCheck.isModLoaded">
+		<!-- <li Class="ModCheck.isModLoaded">
 			<modName>Rimsenal - Enhanced Vanilla Pack</modName>
 			<yourMod>DacTweaks</yourMod>
 			<customMessageSuccess>[DacTweaks] Rimsenal - Enhanced Vanilla Pack detected.</customMessageSuccess>
@@ -314,7 +314,7 @@
 			<errorOnFail>true</errorOnFail>
 			<yourModFirst>false</yourModFirst>
 			<customMessageFail>[DacTweaks] Rimsenal - Enhanced Vanilla Pack must be loaded before DacTweaks</customMessageFail>
-		</li>
+		</li> -->
 		<li Class="PatchOperationReplace">
 			<xpath>*/ThingDef[defName="Gun_Blowgun"]/verbs/li/range</xpath>
 			<value>
@@ -346,12 +346,12 @@
 			</value>
 		</li>
 	</operations>
-</Operation> -->
+</Operation>
 
-<!-- <Operation Class="PatchOperationSequence">
+<Operation Class="PatchOperationSequence">
 	<success>Always</success>
 	<operations>
-		<li Class="ModCheck.isModLoaded">
+		<!-- <li Class="ModCheck.isModLoaded">
 			<modName>Rimsenal - Enhanced Vanilla Pack</modName>
 			<yourMod>DacTweaks</yourMod>
 			<customMessageSuccess>[DacTweaks] Rimsenal - Enhanced Vanilla Pack detected.</customMessageSuccess>
@@ -362,7 +362,7 @@
 			<errorOnFail>true</errorOnFail>
 			<yourModFirst>false</yourModFirst>
 			<customMessageFail>[DacTweaks] Rimsenal - Enhanced Vanilla Pack must be loaded before DacTweaks</customMessageFail>
-		</li>
+		</li> -->
 		<li Class="PatchOperationReplace">
 			<xpath>//ThingDef[defName="Gun_RSAMRifle"]/statBases</xpath>
 			<value>
@@ -382,7 +382,7 @@
 			<xpath>//ThingDef[defName="Gun_RSAMRifle"]/equippedStatOffsets</xpath>
 		</li>
 	</operations>
-</Operation> -->
+</Operation>
 
 <Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThoughtDef[defName="SleepDisturbed"]/durationDays</xpath>
