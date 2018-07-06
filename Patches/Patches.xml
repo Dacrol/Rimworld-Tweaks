@@ -336,15 +336,6 @@
 				</statBases>
 			</value>
 		</li>
-		<li Class="PatchOperationReplace">
-			<xpath>*/ThingDef[defName="Gun_Blowgun"]/costList</xpath>
-			<value>
-				<costList>
-					<HerbalMedicine>15</HerbalMedicine>
-					<WoodLog>30</WoodLog>
-				</costList>
-			</value>
-		</li>
 	</operations>
 </Operation>
 
