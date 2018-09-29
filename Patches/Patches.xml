@@ -18,14 +18,14 @@
 	</value>
 </Operation> 
 
-<Operation Class="PatchOperationReplace">
+<!-- <Operation Class="PatchOperationReplace">
 	<xpath>*/RecipeDef[defName = "BulkExtractMetalFromSlag"]/products</xpath>
 	<value>
 		<products>
 			<Steel>75</Steel>
 		</products>
 	</value>
-</Operation>
+</Operation> -->
 
 <Operation Class="PatchOperationReplace">
 	<xpath>*/HediffGiverSetDef[defName = "OrganicStandard"]/hediffGivers/li[@Class = "HediffGiver_Birthday" and hediff="Frail"]/partsToAffect</xpath>
