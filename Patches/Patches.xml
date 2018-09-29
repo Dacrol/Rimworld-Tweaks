@@ -43,54 +43,6 @@
     </value>
 </Operation>
 
-<Operation Class="PatchOperationReplace">
-    <xpath>/Defs/StorytellerDef[defName = "Cassandra"]/populationIntentFromPopCurve</xpath>
-    <value>
-        <populationIntentFromPopCurve>
-			<points>
-				<li>0, 4</li>
-				<li>1, 2</li>
-				<li>5, 0.5</li>
-				<li>9, 0</li>
-				<li>14, -2</li>
-				<li>17, -5</li>
-				<!-- Defaults: 				
-				<li>0, 8</li>
-				<li>1, 4</li>
-				<li>5, 1</li>
-				<li>9, 0.5</li>
-				<li>13, 0</li>
-				<li>18, -1</li> 
-				-->
-			</points>
-		</populationIntentFromPopCurve>
-    </value>
-</Operation>
-
-<Operation Class="PatchOperationReplace">
-    <xpath>/Defs/StorytellerDef[defName = "Randy"]/populationIntentFromPopCurve</xpath>
-    <value>
-        <populationIntentFromPopCurve>
-			<points>
-				<li>0, 5</li>
-				<li>1, 2</li>
-				<li>5, 0.8</li>
-				<li>9, 0.2</li>
-				<li>13, -2</li>
-				<li>24, -6</li>
-				<!-- Defaults:
-				<li>0, 8</li>
-				<li>1, 4</li>
-				<li>5, 1</li>
-				<li>9, 0.5</li>
-				<li>13, 0</li>
-				<li>50, -1</li>
-				-->
-			</points>
-		</populationIntentFromPopCurve>
-    </value>
-</Operation>
-
 <!-- <Operation Class="PatchOperationReplace">
 	<xpath>/Defs/ThingDef[defName="Human"]/statBases/MoveSpeed</xpath>
 	<value>
@@ -332,7 +284,7 @@
 					<AccuracyMedium>0.30</AccuracyMedium>
 					<AccuracyLong>0.12</AccuracyLong>
 					<RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
-					<Weapon_Bulk>0.5</Weapon_Bulk>
+					<!-- <Weapon_Bulk>0.5</Weapon_Bulk> -->
 				</statBases>
 			</value>
 		</li>
@@ -365,7 +317,7 @@
 				<AccuracyMedium>0.82</AccuracyMedium>
 				<AccuracyLong>0.91</AccuracyLong>
 				<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
-				<Weapon_Bulk>3</Weapon_Bulk>
+				<!-- <Weapon_Bulk>3</Weapon_Bulk> -->
 				</statBases>
 			</value>
 		</li>
@@ -394,7 +346,7 @@
 		</stages>
 	</value>
 </Operation>
-
+<!-- 
 <Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[defName="sd_luciprod_mechanite_oil"]/statBases/MarketValue</xpath>
 	<value>
@@ -421,7 +373,7 @@
 	<value>
 		<sd_luciprod_mechanite_oil>18</sd_luciprod_mechanite_oil>
 	</value>
-</Operation>
+</Operation> -->
 
 <Operation Class="PatchOperationReplace">
 	<xpath>/Defs/ThoughtDef[defName="AteWithoutTable"]/stages/li/baseMoodEffect</xpath>
@@ -436,7 +388,7 @@
 		<durationDays>0.25</durationDays>
 	</value>
 </Operation>
-
+<!-- 
 <Operation Class="PatchOperationAdd">
 	<xpath>/Defs/ThingDef[defName="Fruitdrink"]/ingestible</xpath>
 	<value>
@@ -449,7 +401,7 @@
 	<value>
         <preferability>NeverForNutrition</preferability>
 	</value>
-</Operation>
+</Operation> -->
 
 <Operation Class="PatchOperationReplace">
 	<xpath>/Defs/ThingDef[defName="MoisturePump"]/comps/li[@Class="CompProperties_TerrainPumpDry"]/daysToRadius</xpath>
@@ -541,11 +493,12 @@
 	</value>
 </Operation>
 
+<!-- 
 <Operation Class="PatchOperationReplace">
 	<xpath>/Defs/InspirationDef[defName="InspiredRecruitment"]/requiredSkills/Social</xpath>
 	<value>
 		<Social>21</Social>
 	</value>
-</Operation>
+</Operation> -->
 
 </Patch>
