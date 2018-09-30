@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Patch>
-
+<!-- 
 <Operation Class="PatchOperationAdd">
 	<xpath>/Defs/ThingDef[@Name="MealBase"]/ingestible</xpath>
 	<value>
@@ -16,7 +16,7 @@
 			<chairSearchRadius>75</chairSearchRadius>
 		</ingestible>
 	</value>
-</Operation> 
+</Operation>  -->
 
 <!-- <Operation Class="PatchOperationReplace">
 	<xpath>*/RecipeDef[defName = "BulkExtractMetalFromSlag"]/products</xpath>
@@ -176,6 +176,13 @@
 	<xpath>Defs/ThingDef[defName="Megasloth" and @ParentName="AnimalThingBase"]/race/baseHungerRate</xpath>
 	<value>
 		<baseHungerRate>1.4</baseHungerRate> <!-- Default 2.0 -->
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Thrumbo" and @ParentName="AnimalThingBase"]/race/baseHungerRate</xpath>
+	<value>
+		<baseHungerRate>2.4</baseHungerRate> <!-- Default 3.5 -->
 	</value>
 </Operation>
 
