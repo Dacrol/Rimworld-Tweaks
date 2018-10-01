@@ -66,7 +66,6 @@
 			</li>
 		</comps>
 	</ThingDef>
-
 	<ThingDef ParentName="ChanPart_Support_Base">
 		<defName>ChanPart_3x3_Support</defName>
 		<label>large chandelier</label>
@@ -93,7 +92,7 @@
 				<glowColor>(240,240,225,0)</glowColor>
 			</li>
 			<li Class="CompProperties_Art">
-				<nameMaker>ArtName_Furniture</nameMaker>
+				<nameMaker>NamerArtFurniture</nameMaker>
 				<descriptionMaker>ArtDescription_Furniture</descriptionMaker>
 				<minQualityForArtistic>Superior</minQualityForArtistic>
 			</li>
