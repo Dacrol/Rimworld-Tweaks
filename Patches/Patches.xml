@@ -251,7 +251,7 @@
 			<customMessageFail>[DacTweaks] Harvest Organs Post Mortem - 4.0 [B19] must be loaded before DacTweaks</customMessageFail>
 		</li> -->
 		<li Class="PatchOperationReplace">
-			<xpath>/Defs/ThoughtDef[defName="ButcheredHumanlikeCorpse"]/stages/li/baseMoodEffect</xpath>
+			<xpath>/Defs/ThoughtDef[defName="HarvestedHumanlikeCorpse"]/stages/li/baseMoodEffect</xpath>
 			<value>
 				<baseMoodEffect>-2</baseMoodEffect>
 			</value>
