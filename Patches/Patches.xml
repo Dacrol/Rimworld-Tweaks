@@ -234,7 +234,7 @@
 		<forcedMissRadius>6.2</forcedMissRadius> <!-- Default 11 -->
 	</value>
 </Operation>
-<!-- 
+
 <Operation Class="PatchOperationSequence">
 	<success>Always</success>
 	<operations>
@@ -257,7 +257,7 @@
 			</value>
 		</li>
 	</operations>
-</Operation> -->
+</Operation>
 
 <Operation Class="PatchOperationSequence">
 	<success>Always</success>
