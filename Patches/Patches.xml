@@ -443,7 +443,7 @@
 </Operation>
 
 <Operation Class="PatchOperationRemove">
-	<xpath>/Defs/thingDef[starts-with(equippedStatOffsets/WorkSpeedGlobal, "-")]/equippedStatOffsets/WorkSpeedGlobal</xpath>
+	<xpath>/Defs/thingDef[starts-with(equippedStatOffsets/MoveSpeed, "-")]/equippedStatOffsets/MoveSpeed</xpath>
 </Operation>
 
 <Operation Class="PatchOperationRemove">
