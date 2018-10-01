@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Patch>
-<!-- 
+
 <Operation Class="PatchOperationAdd">
 	<xpath>/Defs/ThingDef[@Name="MealBase"]/ingestible</xpath>
 	<value>
@@ -16,7 +16,7 @@
 			<chairSearchRadius>75</chairSearchRadius>
 		</ingestible>
 	</value>
-</Operation>  -->
+</Operation> 
 
 <!-- <Operation Class="PatchOperationReplace">
 	<xpath>*/RecipeDef[defName = "BulkExtractMetalFromSlag"]/products</xpath>
