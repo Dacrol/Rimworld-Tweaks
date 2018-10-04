@@ -161,7 +161,7 @@
 <Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[defName = "Megasloth"]/race/wildness</xpath>
 	<value>
-		<wildness>0.86</wildness> <!-- Default 0.97 -->
+		<wildness>0.8</wildness> <!-- Default 0.97 -->
 	</value>
 </Operation>
 
@@ -189,7 +189,7 @@
 <Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[defName = "Ostrich"]/race/wildness</xpath>
 	<value>
-		<wildness>0.89</wildness> <!-- Default 0.95 -->
+		<wildness>0.85</wildness> <!-- Default 0.95 -->
 	</value>
 </Operation>
 
