@@ -203,14 +203,21 @@
 <Operation Class="PatchOperationReplace">
 	<xpath>*/DifficultyDef[defName = "Easy"]/threatScale</xpath>
 	<value>
-	<threatScale>0.35</threatScale>
+		<threatScale>0.35</threatScale>
 	</value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
 	<xpath>*/DifficultyDef[defName = "Medium"]/threatScale</xpath>
 	<value>
-	<threatScale>0.5</threatScale>
+		<threatScale>0.5</threatScale>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>*/DifficultyDef[defName = "Medium"]/enemyDeathOnDownedChanceFactor</xpath>
+	<value>
+		<enemyDeathOnDownedChanceFactor>0.95</enemyDeathOnDownedChanceFactor>
 	</value>
 </Operation>
 
