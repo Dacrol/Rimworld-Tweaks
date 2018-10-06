@@ -166,6 +166,13 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName = "Megasloth"]/race/manhunterOnTameFailChance</xpath>
+	<value>
+		<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance> <!-- Default 0.10 -->
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[defName="Megasloth" and @ParentName="AnimalThingBase"]/race/baseBodySize</xpath>
 	<value>
 		<baseBodySize>4.6</baseBodySize> <!-- Default 4.0 -->
