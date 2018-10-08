@@ -229,6 +229,20 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+	<xpath>*/DifficultyDef[defName = "Medium"]/foodPoisonChanceFactor</xpath>
+	<value>
+		<foodPoisonChanceFactor>0.5</foodPoisonChanceFactor>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>*/DifficultyDef[defName = "Rough"]/foodPoisonChanceFactor</xpath>
+	<value>
+		<foodPoisonChanceFactor>0.5</foodPoisonChanceFactor>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[@Name="BaseArtilleryBuilding"]/building/turretBurstCooldownTime</xpath>
 	<value>
 		<turretBurstCooldownTime>20</turretBurstCooldownTime> <!-- Default 28 -->
