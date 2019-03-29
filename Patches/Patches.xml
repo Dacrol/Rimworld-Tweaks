@@ -170,6 +170,12 @@
 	<value>
 		<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance> <!-- Default 0.10 -->
 	</value>
+
+</Operation><Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName = "Thrumbo"]/race/manhunterOnTameFailChance</xpath>
+	<value>
+		<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance> <!-- Default 0.10 -->
+	</value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
