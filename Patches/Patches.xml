@@ -470,9 +470,9 @@
 	<xpath>/Defs/ThingDef[starts-with(equippedStatOffsets/WorkSpeedGlobal, "-")]/equippedStatOffsets/WorkSpeedGlobal</xpath>
 </Operation>
 
-<Operation Class="PatchOperationRemove">
+<!-- <Operation Class="PatchOperationRemove">
 	<xpath>/Defs/thingDef[starts-with(equippedStatOffsets/MoveSpeed, "-")]/equippedStatOffsets/MoveSpeed</xpath>
-</Operation>
+</Operation> -->
 
 <Operation Class="PatchOperationRemove">
 	<xpath>/Defs/RecipeDef[defName="ExtractBulkSteelLeaf"]/skillRequirements</xpath>
