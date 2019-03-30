@@ -154,7 +154,7 @@
 <Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[defName = "Thrumbo"]/race/wildness</xpath>
 	<value>
-		<wildness>0.9</wildness>
+		<wildness>0.82</wildness>
 	</value>
 </Operation>
 
@@ -171,10 +171,19 @@
 		<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance> <!-- Default 0.10 -->
 	</value>
 
-</Operation><Operation Class="PatchOperationReplace">
+</Operation>
+
+<Operation Class="PatchOperationReplace">
 	<xpath>Defs/ThingDef[defName = "Thrumbo"]/race/manhunterOnTameFailChance</xpath>
 	<value>
 		<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance> <!-- Default 0.10 -->
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[@Name = "BaseBear"]/race/manhunterOnTameFailChance</xpath>
+	<value>
+		<manhunterOnTameFailChance>0.04</manhunterOnTameFailChance> <!-- Default 0.10 -->
 	</value>
 </Operation>
 
