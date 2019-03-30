@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "ChanPart_1x1_Support"]/comps/li[@Class = "CompProperties_Glower"]</xpath>
+    <value>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(230,230,210,0)</glowColor>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "ChanPart_2x2_Support"]/comps/li[@Class = "CompProperties_Glower"]</xpath>
+    <value>
+      <li Class="CompProperties_Glower">
+        <glowRadius>14</glowRadius>
+        <glowColor>(230,230,210,0)</glowColor>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>*/ThingDef[defName = "ChanPart_3x3_Support"]/comps/li[@Class = "CompProperties_Glower"]</xpath>
+    <value>
+      <li Class="CompProperties_Glower">
+        <glowRadius>19</glowRadius>
+        <glowColor>(240,240,225,0)</glowColor>
+      </li>
+    </value>
+  </Operation>
+</Patch>
