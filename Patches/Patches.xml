@@ -467,6 +467,7 @@
 	</value>
 </Operation>
 
+<!-- 
 <Operation Class="PatchOperationReplace">
 	<xpath>/Defs/RecipeDef[defName="MakeComponentx25"]/workAmount</xpath>
 	<value>
@@ -479,7 +480,7 @@
 	<value>
         <workAmount>20000</workAmount>
 	</value>
-</Operation>
+</Operation> -->
 
 <Operation Class="PatchOperationRemove">
 	<xpath>/Defs/ThingDef[starts-with(equippedStatOffsets/WorkSpeedGlobal, "-")]/equippedStatOffsets/WorkSpeedGlobal</xpath>
