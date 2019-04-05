@@ -552,4 +552,11 @@
 	</value>
 </Operation> -->
 
+<Operation Class="PatchOperationReplace">
+	<xpath>/Defs/ThingDef[defName="PodLauncher"]/comps/li[@Class="CompProperties_Refuelable"]/fuelCapacity</xpath>
+	<value>
+		<fuelCapacity>400</fuelCapacity> <!-- Default 150 -->
+	</value>
+</Operation>
+
 </Patch>
