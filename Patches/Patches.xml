@@ -48,14 +48,17 @@
 	<value>
 		<MoveSpeed>4.61</MoveSpeed>
 	</value>
-</Operation> -->
+</Operation> 
+-->
 
+<!-- 
 <Operation Class="PatchOperationReplace">
 	<xpath>/Defs/ThingDef[defName="Caribou"]/statBases/MoveSpeed</xpath>
 	<value>
-		<MoveSpeed>5.94</MoveSpeed> <!-- Default 4.84 -->
+		<MoveSpeed>5.94</MoveSpeed>
 	</value>
-</Operation>
+</Operation> 
+-->
 
 <Operation Class="PatchOperationReplace">
 	<xpath>/Defs/StatDef[defName="CarryingCapacity"]/defaultBaseValue</xpath>
