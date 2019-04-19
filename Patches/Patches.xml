@@ -590,8 +590,8 @@
 				<factorAwful>0.86</factorAwful>
 				<factorPoor>0.92</factorPoor>
 				<factorNormal>1</factorNormal>
-				<factorGood>1.12</factorGood>
-				<factorExcellent>1.25</factorExcellent>
+				<factorGood>1.15</factorGood>
+				<factorExcellent>1.3</factorExcellent>
 				<factorMasterwork>1.4</factorMasterwork>
 				<factorLegendary>1.5</factorLegendary>
 			</li>
