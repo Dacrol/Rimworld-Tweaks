@@ -591,9 +591,9 @@
 				<factorPoor>0.92</factorPoor>
 				<factorNormal>1</factorNormal>
 				<factorGood>1.15</factorGood>
-				<factorExcellent>1.3</factorExcellent>
+				<factorExcellent>1.28</factorExcellent>
 				<factorMasterwork>1.4</factorMasterwork>
-				<factorLegendary>1.5</factorLegendary>
+				<factorLegendary>1.45</factorLegendary>
 			</li>
 		</value>
 	</Operation>
