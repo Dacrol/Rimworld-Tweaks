@@ -5,7 +5,7 @@
     <value>
       <li Class="CompProperties_Glower">
         <glowRadius>12</glowRadius>
-        <glowColor>(230,230,210,0)</glowColor>
+        <glowColor>(245,245,230,0)</glowColor>
       </li>
     </value>
   </Operation>
@@ -14,7 +14,7 @@
     <value>
       <li Class="CompProperties_Glower">
         <glowRadius>14</glowRadius>
-        <glowColor>(230,230,210,0)</glowColor>
+        <glowColor>(245,245,230,0)</glowColor>
       </li>
     </value>
   </Operation>
@@ -23,7 +23,7 @@
     <value>
       <li Class="CompProperties_Glower">
         <glowRadius>19</glowRadius>
-        <glowColor>(240,240,225,0)</glowColor>
+        <glowColor>(255,255,240,0)</glowColor>
       </li>
     </value>
   </Operation>
